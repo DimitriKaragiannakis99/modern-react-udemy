@@ -1,0 +1,14 @@
+.ButtonList {
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ButtonList button {
+	width: 150px;
+	height: fit-content;
+	font-size: x-large;
+	margin-right: 60px;
+	border-radius: 20px;
+}
