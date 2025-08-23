@@ -1,0 +1,29 @@
+body {
+	background-color: darkslategray;
+}
+
+.Deck button {
+	border-radius: 5px;
+	font-size: larger;
+	padding: 10px;
+}
+
+.Deck button:hover {
+	background-color: goldenrod;
+}
+
+.Deck {
+	text-transform: capitalize;
+	color: cornsilk;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.Card {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 5em;
+}
