@@ -1,0 +1,27 @@
+.sardines-link {
+	color: cornsilk;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.sardines-box {
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2Y0NTZoaXZmcHF6ZGdpaTd3YzVrOTQ2NmhvdWF6eXNpbTcwYWhzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kmIwUA9bTXxKP7DAE7/giphy.gif");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sardines-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(13, 5, 5, 0.4);
+	color: cornsilk;
+	padding: 1em;
+	border-radius: 10px;
+}

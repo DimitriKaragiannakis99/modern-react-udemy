@@ -1,0 +1,36 @@
+.soda-img {
+	animation: spin 2s linear infinite;
+	width: 250px;
+	height: auto;
+	margin: 5em;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.soda-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.soda-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: bolder;
+	background-color: chocolate;
+	padding: 1.5em;
+	border-radius: 10px;
+	color: burlywood;
+}
+
+.soda-link {
+	color: burlywood;
+}

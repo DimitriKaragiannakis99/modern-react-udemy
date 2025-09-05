@@ -1,0 +1,11 @@
+.food-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.food-img {
+	width: fit-content;
+	height: auto;
+}

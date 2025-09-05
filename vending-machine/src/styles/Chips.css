@@ -1,0 +1,30 @@
+.chips-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+
+.chips-text {
+	background-color: chocolate;
+	color: burlywood;
+	display: flex;
+	flex-direction: column;
+	padding: 2em;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.chips-text button {
+	background-color: pink;
+	border-radius: 10px;
+	padding: 1em;
+	cursor: pointer;
+}
+
+.chips-link {
+	color: burlywood;
+	text-decoration: none;
+	font-weight: bolder;
+	margin-top: 1em;
+}

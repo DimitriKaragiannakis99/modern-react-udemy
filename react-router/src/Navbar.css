@@ -1,0 +1,19 @@
+.navbar {
+	color: orange;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
+
+.link {
+	margin: 1em;
+	color: hotpink;
+	font-weight: bold;
+}
+
+.active-link {
+	color: palegreen;
+	border-bottom: solid 1px white;
+}
